@@ -31,3 +31,5 @@ nav button.active:after,.mobile-nav button.active:after{display:none!important}n
 .form fieldset:has(>.people){position:relative}.select-all{position:absolute;right:0;top:-8px;border:1px solid var(--line);background:var(--paper);color:var(--green);border-radius:8px;padding:7px 11px;font-size:11px;font-weight:900}.participant-error{margin:10px 0 0;padding:11px 13px;background:#fff0ed;color:#9b3f36;border-radius:9px;font-size:12px;font-weight:800}.participant-error:before{content:"!  "}
 
 .form fieldset:has(>.people){position:static}.split-heading{display:flex;align-items:center;justify-content:flex-start;gap:12px;margin-bottom:10px;font-size:12px;font-weight:800}.split-heading .select-all{position:static;right:auto;top:auto;padding:6px 10px;margin:0;border:1px solid #a9cdb5;background:#edf8f0;color:var(--green);border-radius:8px;font-size:11px;font-weight:900}
+
+.group-picker header .logout{margin-left:auto}.group-picker header{justify-content:space-between}
