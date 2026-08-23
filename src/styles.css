@@ -226,3 +226,5 @@ nav button.active:after,.mobile-nav button.active:after{display:none!important}n
  .archived-group-row>div button{min-height:42px}
  .archived-notice{align-items:flex-start;flex-direction:column;gap:4px}
 }
+
+@media(min-width:761px){.archived-notice{margin-left:auto;margin-right:auto}}
