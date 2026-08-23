@@ -111,3 +111,8 @@ nav button.active:after,.mobile-nav button.active:after{display:none!important}n
  .join-link-actions,.join-request>div{display:grid;grid-template-columns:1fr 1fr}
  .join-link-actions button,.join-request button{min-height:44px}
 }
+
+/* Keep the core Settings cards side by side, followed by access and safety. */
+.settings>.card:not(.join-access):not(.danger-zone){order:1}
+.settings>.join-access{order:2;grid-column:1/-1}
+.settings>.danger-zone{order:3;grid-column:1/-1}
