@@ -74,3 +74,5 @@ nav button.active:after,.mobile-nav button.active:after{display:none!important}n
 @media(max-width:600px){.expense-date{width:100%;min-width:0;overflow:hidden}.expense-date input[type="date"]{display:block;width:100%;max-width:100%;min-width:0;box-sizing:border-box}}
 
 .remove-person{color:#a1453d;border-color:#dfbbb7}.remove-confirm{color:#fff;background:#a1453d;border-color:#a1453d}
+
+@media(max-width:600px){.form .expense-date{display:block;width:100%;max-width:100%;min-width:0;overflow:visible}.form .expense-date input[type="date"]{-webkit-appearance:none;appearance:none;display:block;width:100%;max-width:100%;min-width:0;box-sizing:border-box;margin-right:0}}
