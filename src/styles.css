@@ -251,3 +251,16 @@ nav button.active:after,.mobile-nav button.active:after{display:none!important}n
 .join-request>div .approve-request{background:var(--green);border-color:var(--green);color:#fff}
 .join-request>div .approve-request:hover{background:#173c2d}
 @media(max-width:600px){.group-picker .join-notice{align-items:flex-start}.join-request>div button{width:100%}}
+
+.group-picker>section>div>.pending-group-card{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:center;width:100%;padding:18px;border:1px solid #e0c88f;border-radius:15px;background:#fff7e5;text-align:left}
+.group-picker>section>div>.pending-group-card>i{display:grid;place-items:center;width:42px;height:42px;border-radius:50%;font-style:normal;font-weight:900;background:#f5d39b;color:#72531b}
+.group-picker>section>div>.pending-group-card>span{display:grid;gap:4px}
+.group-picker>section>div>.pending-group-card b{color:var(--ink)}
+.group-picker>section>div>.pending-group-card small{color:#806a40}
+@media(max-width:520px){.group-picker>section>div>.pending-group-card{padding:15px}}
+
+.member-directory .readonly-member{grid-template-columns:38px minmax(0,1fr) auto}
+.member-directory .readonly-member>div:last-child{justify-self:end}
+.member-directory .readonly-member>div:last-child>button{white-space:nowrap;padding:8px 12px;border:1px solid var(--line);border-radius:9px;background:#fff;color:var(--green);font-weight:750}
+.member-directory .readonly-member>.member-editor{grid-column:2/-1;width:100%}
+@media(max-width:520px){.member-directory .readonly-member{grid-template-columns:38px minmax(0,1fr) auto;gap:9px}.member-directory .readonly-member>div:last-child>button{padding:7px 9px;font-size:12px}}
