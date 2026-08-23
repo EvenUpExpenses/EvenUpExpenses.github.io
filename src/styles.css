@@ -154,3 +154,45 @@ nav button.active:after,.mobile-nav button.active:after{display:none!important}n
   font-size:11px
  }
 }
+
+@media(max-width:760px){
+ .app-shell .content>.head{
+  display:block;
+  margin-bottom:22px
+ }
+ .app-shell .content>.head>.primary{
+  width:100%;
+  margin-top:18px;
+  padding:14px 18px;
+  font-size:16px;
+  text-align:center
+ }
+ .app-shell .content>.head>.primary:first-letter{font-size:inherit}
+ .hero .you,.hero .next{padding:24px}
+ .hero .you>strong{
+  margin:12px 0 22px;
+  font-size:34px
+ }
+ .hero .you>div{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px
+ }
+ .hero .you>div span{
+  padding:11px 12px;
+  border:1px solid rgba(255,255,255,.16);
+  border-radius:11px;
+  background:rgba(255,255,255,.05)
+ }
+ .hero .next{min-height:178px}
+ .hero .next h2{
+  margin:12px 0 7px;
+  font-size:20px
+ }
+ .hero .next strong{font-size:34px}
+ .hero .next button{
+  padding:9px 11px;
+  border:1px solid currentColor;
+  border-radius:10px
+ }
+}
