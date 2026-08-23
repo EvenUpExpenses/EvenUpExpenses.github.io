@@ -70,3 +70,5 @@ nav button.active:after,.mobile-nav button.active:after{display:none!important}n
 .auth-links{display:grid;gap:8px;margin-top:10px}
 .auth-links .switch{margin:0}
 .auth .notice+.switch{margin-top:14px}
+
+@media(max-width:600px){.expense-date{width:100%;min-width:0;overflow:hidden}.expense-date input[type="date"]{display:block;width:100%;max-width:100%;min-width:0;box-sizing:border-box}}
