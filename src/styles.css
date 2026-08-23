@@ -228,3 +228,26 @@ nav button.active:after,.mobile-nav button.active:after{display:none!important}n
 }
 
 @media(min-width:761px){.archived-notice{margin-left:auto;margin-right:auto}}
+
+.group-picker .pending-group-card{
+ border-color:#e0c88f;
+ background:#fff7e5
+}
+.group-picker .pending-group-card>i{
+ background:#f5d39b;
+ color:#72531b
+}
+.group-picker .pending-group-card small{color:#806a40}
+.group-picker .pending-group-card strong{color:#8a641c}
+
+/* Join request notice and review controls */
+.group-picker .join-notice{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:14px 16px}
+.group-picker .join-notice>span{flex:1;min-width:0;line-height:1.45}
+.group-picker .join-notice>button{flex:0 0 32px!important;width:32px!important;min-width:32px!important;height:32px!important;margin:0!important;padding:0!important;border:0!important;border-radius:8px!important;background:transparent!important;color:var(--green)!important;font-size:20px!important;line-height:1!important;display:grid!important;place-items:center!important}
+.group-picker .join-notice>button:hover{background:#dceee3!important}
+.join-request>div button{min-width:88px;padding:9px 14px;border:1px solid var(--line);border-radius:9px;background:#fff;color:var(--green);font:inherit;font-weight:750;cursor:pointer}
+.join-request>div button:hover{background:#f4f7f3}
+.join-request>div button:disabled{cursor:wait;opacity:.62}
+.join-request>div .approve-request{background:var(--green);border-color:var(--green);color:#fff}
+.join-request>div .approve-request:hover{background:#173c2d}
+@media(max-width:600px){.group-picker .join-notice{align-items:flex-start}.join-request>div button{width:100%}}
