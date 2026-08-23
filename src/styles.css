@@ -60,3 +60,9 @@ nav button.active:after,.mobile-nav button.active:after{display:none!important}n
 
 /* Owner-only administration */
 .invite-member small{display:block}.invite-member small:first-letter{text-transform:uppercase}
+
+.readonly-value{margin-top:7px;padding:14px 15px;border:1px solid var(--line);border-radius:10px;background:#f7f6f1;font-weight:800;color:var(--ink)}
+.readonly-member{grid-template-columns:38px 1fr;padding:12px 0}
+.readonly-member span{display:grid;gap:3px}
+.readonly-member small{color:var(--muted);font-weight:500}
+.member-directory .readonly-member:last-child{border-bottom:0}
