@@ -264,3 +264,5 @@ nav button.active:after,.mobile-nav button.active:after{display:none!important}n
 .member-directory .readonly-member>div:last-child>button{white-space:nowrap;padding:8px 12px;border:1px solid var(--line);border-radius:9px;background:#fff;color:var(--green);font-weight:750}
 .member-directory .readonly-member>.member-editor{grid-column:2/-1;width:100%}
 @media(max-width:520px){.member-directory .readonly-member{grid-template-columns:38px minmax(0,1fr) auto;gap:9px}.member-directory .readonly-member>div:last-child>button{padding:7px 9px;font-size:12px}}
+
+.people label{min-width:0;overflow:hidden}.participant-name{display:block;min-width:0;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
