@@ -66,3 +66,7 @@ nav button.active:after,.mobile-nav button.active:after{display:none!important}n
 .readonly-member span{display:grid;gap:3px}
 .readonly-member small{color:var(--muted);font-weight:500}
 .member-directory .readonly-member:last-child{border-bottom:0}
+
+.auth-links{display:grid;gap:8px;margin-top:10px}
+.auth-links .switch{margin:0}
+.auth .notice+.switch{margin-top:14px}
